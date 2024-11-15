@@ -1,0 +1,32 @@
+.nav{
+    width: 60%;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 65px;
+    border-radius: 10px;
+    transform: translate(-50%, 90%);
+    margin-left: 50%;
+}
+.navLink{
+    font-size: 22px;
+    color: #062F83;
+    font-weight: 700;
+}
+.placeholder{
+    height: 200px;
+    width: 200px;
+}
+.logo{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    height: 120px;
+    width: 120px;
+}
+.header{
+    height: 160px;
+    position: relative;
+}
