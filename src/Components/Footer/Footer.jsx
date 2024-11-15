@@ -4,7 +4,7 @@ import { LocationOn, Phone, Mail, FacebookOutlined  } from '@mui/icons-material'
 
 const Footer = () => {
   const [footerElement, setFooterElement] = useState([
-    {icon: <LocationOn />, content: '77 Nguyễn Huệ, Huế'},
+    {icon: <LocationOn />, content: '77 Nguyễn Huệ, phường Vĩnh Ninh, Huế'},
     {icon: <Phone />, content: '0234 3826 767'},
     {icon: <Mail />, content: 'khoacntt@husc.edu.vn'},
     {icon: <FacebookOutlined />, content: 'Facebook link'},
