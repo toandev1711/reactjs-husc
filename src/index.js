@@ -16,6 +16,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <BrowserRouter>
         <Routes>
+            <Route index element={<Overview /> }/>
             <Route path='/overview' element={<Overview /> } />
             <Route path='/' element = {<App />}>
                 <Route path='staff' element = {<Staff />}/>

@@ -1,0 +1,28 @@
+.MarkTimeline{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    z-index: 1000;
+    position: relative;
+    span{
+        width: 365px;
+        font-size: 32px;
+        text-align: center;
+        border-top: 5px solid #ccc;
+        padding: 10px;
+        position: relative;
+        font-weight: bold;
+        z-index: 1000
+        div{
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            right: 0;
+            top: -50%;
+            transform: translate(30%, 30%);
+            background-color: black;
+                font-weight: bold;
+            z-index: 1200
+        }
+    }
+}

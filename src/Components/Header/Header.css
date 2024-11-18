@@ -1,3 +1,9 @@
+.header{
+    position: sticky;
+    top: 40px;
+    z-index: 1000;
+    transition: 2s ease;
+}
 .nav{
     width: 60%;
     background-color: #fff;
@@ -6,8 +12,10 @@
     justify-content: space-around;
     height: 65px;
     border-radius: 10px;
-    transform: translate(-50%, 90%);
+    transform: translateX(-50%);
     margin-left: 50%;
+    box-shadow: #1148A5 0px 5px 18px;
+   
 }
 .navLink{
     font-size: 22px;
@@ -25,8 +33,4 @@
     z-index: 1000;
     height: 120px;
     width: 120px;
-}
-.header{
-    height: 160px;
-    position: relative;
 }
