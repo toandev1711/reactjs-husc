@@ -1,0 +1,13 @@
+.MarkContainer{
+    padding: 10px;
+    transform: translateY(50px);
+    h1{
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .ImgContainer{
+        display: flex;
+        justify-content: center;
+    }
+}

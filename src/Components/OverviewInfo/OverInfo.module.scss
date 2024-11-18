@@ -1,0 +1,25 @@
+.overviewInfoContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 80%;
+    
+    .mainContentLeft{
+        height: 460px;
+        width: 650px;
+        border-radius: 20px;
+    }
+    .mainContentRight{
+        font-size: 30px;
+        font-weight: 500;
+        h1{
+            font-size: 64px;
+            color: #1148A5;
+            margin-bottom: 30px;
+        }
+        
+    }
+}
+
