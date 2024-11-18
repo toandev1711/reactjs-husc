@@ -1,9 +1,15 @@
 import React from 'react'
-import './Mark.module.css'
+import styles from './Mark.module.scss'
+import MarkImg from '../../Components/MarkImg/MarkImg'
+import MarkTimeline from '../../Components/MarkTimeline/MarkTimeline'
 const Mark = () => {
   return (
-    <div>
-      mark page
+    <div className={styles.MarkContainer}>
+      <div className={styles.ImgContainer}>
+        <MarkImg /><MarkImg />
+        <MarkImg /><MarkImg />
+      </div>
+      <MarkTimeline />
     </div>
   )
 }

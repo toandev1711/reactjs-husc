@@ -1,14 +1,13 @@
 .footer{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
+  
     display: flex;
     justify-content: space-between;
     height: 100px;
     align-items: center;
     background-color: #00A5FF;
-    padding: 0 20rem
+    padding: 0 20rem;
+    position: relative;
+    z-index: 1000
 }
 .footer-element{
     display: flex;
