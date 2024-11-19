@@ -35,7 +35,7 @@ const Staff = () => {
               <img className="content-footer-image" alt="Staff Visual 6" src={require('../../assets/img/school/DayH.jpg')} />
               <div className="content-footer-description">
                 <p className="content-footer-text">
-                  Với bề dày 30 năm xây dựng và phát triển, khoa đã đào tạo được
+                  Với bề dày 30 năm xây và phát triển, khoa đã đào tạo được
                   số lượng lớn các cử nhân, thạc sĩ, tiến sĩ đang công tác trên
                   mọi miền tổ quốc và thế giới, hướng tới đóng góp cho sự phát
                   triển của đất nước và hội nhập quốc tế tích cực, sâu rộng.
