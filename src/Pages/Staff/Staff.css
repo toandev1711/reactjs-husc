@@ -1,11 +1,8 @@
 /* Staff Container */
 .staff-container {
   position: relative;
-  width: 1305px;
-  height: 797px;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
+
 }
 
 /* Staff Overview */
@@ -259,9 +256,7 @@
   width: 707px;
 }
 .staff-container {
-  height: 807px;
   position: relative;
-  width: 1604px;
 }
 
 .staff-container .staff-leader {
