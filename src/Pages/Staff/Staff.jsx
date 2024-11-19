@@ -1,5 +1,5 @@
 import React from 'react'
-import './Staff.module.css'
+import './Staff.css'
 const Staff = () => {
   return (
     <div className="staff-container">
@@ -27,7 +27,7 @@ const Staff = () => {
                   nghiên cứu khoa học (NCKH), hiện nay (năm 2023) Khoa có 26
                   viên chức và người lao động, trong đó 23 giảng viên với 06 phó
                   giáo sư tiến sĩ, 9 tiến sĩ, 10 thạc sĩ, 2 trợ giảng và 1 văn
-                  thư.
+                  thư.11
                 </p>
               </div>
             </div>
