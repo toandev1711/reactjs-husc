@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react'
 import './Staff.css'
 import StaffLeader from '../../Components/StaffLeader/StaffLeader';
@@ -80,6 +81,47 @@ const Staff = () => {
       <div className='staff-overview'>
         <StaffImgThumb/>
         <StaffOverviewContent/>
+      {/* Staff Overview Section */}
+      <div className="staff-overview">
+        <div className="staff-header">
+          <div className="header-left-circle" />
+          <div className="header-right-circle" />
+          <img className="header-image-left" alt="Staff Visual 1" src={require('../../assets/img/teachers/NguyenThiThuyNhi.png')} />
+          <img className="header-image-right" alt="Staff Visual 2" src={require('../../assets/img/teachers/NguyenDung.png')} />
+        </div>
+        <div className="staff-content">
+          <div className="content-left">
+            <div className="content-left-top-circle" />
+            <div className="content-left-bottom-circle" />
+            <img className="content-left-image" alt="Staff Visual 3" src={require('../../assets/img/teachers/DoanThiHongPhuoc.png')} />
+            <img className="content-left-image-overlay" alt="Staff Visual 4" src={require('../../assets/img/teachers/NguyenDangBinh.png')} />
+          </div>
+          <div className="content-right">
+            <div className="content-right-image-wrapper">
+              <img className="content-right-image" alt="Staff Visual 5" src={require('../../assets/img/school/DayE.jpg')} />
+              <div className="content-right-description">
+                <p className="content-right-text">
+                  Với sự phát triển không ngừng về đội ngũ, quy mô đào tạo và
+                  nghiên cứu khoa học (NCKH), hiện nay (năm 2023) Khoa có 26
+                  viên chức và người lao động, trong đó 23 giảng viên với 06 phó
+                  giáo sư tiến sĩ, 9 tiến sĩ, 10 thạc sĩ, 2 trợ giảng và 1 văn
+                  thư.11
+                </p>
+              </div>
+            </div>
+            <div className="content-right-footer">
+              <img className="content-footer-image" alt="Staff Visual 6" src={require('../../assets/img/school/DayH.jpg')} />
+              <div className="content-footer-description">
+                <p className="content-footer-text">
+                  Với bề dày 30 năm xây và phát triển, khoa đã đào tạo được
+                  số lượng lớn các cử nhân, thạc sĩ, tiến sĩ đang công tác trên
+                  mọi miền tổ quốc và thế giới, hướng tới đóng góp cho sự phát
+                  triển của đất nước và hội nhập quốc tế tích cực, sâu rộng.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <StaffLeader/>
       <div className="staff-member-list">

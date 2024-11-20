@@ -113,6 +113,22 @@
   overflow: hidden;
   text-overflow: ellipsis;
   transition: color 0.3s ease;
+  width: 707px;
+}
+.staff-container {
+  position: relative;
+}
+
+.staff-container .staff-leader {
+  height: 807px;
+  left: 0;
+  top: 0;
+  width: 1608px;
+}
+.staff-leader {
+  position: relative;
+  text-align: center;
+
 }
 
 .staff-member.selected .member-name {
