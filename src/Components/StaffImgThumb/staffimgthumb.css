@@ -1,0 +1,86 @@
+.staff-img-thumb {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Hai cột */
+  gap: 20px; /* Khoảng cách giữa các phần tử */
+  align-items: center;
+  justify-items: center;
+}
+  
+  .header-left-circle,
+  .header-right-circle {
+    position: absolute;
+    top: 112px;
+    width: 250px;
+    height: 250px;
+    border-radius: 100px 0 0 0;
+  }
+  
+  .header-left-circle {
+    background-color: #00a5ff;
+    left: 29px;
+  }
+  
+  .header-right-circle {
+    background-color: #062f83;
+    left: 319px;
+    border-radius: 0 100px 0 0;
+  }
+  
+  .header-image-left {
+    position: absolute;
+    top: 12px;
+    left: 0;
+    width: 319px;
+    height: 350px;
+  }
+  
+  .header-image-right {
+    position: absolute;
+    top: 0;
+    left: 286px;
+    width: 318px;
+    height: 362px;
+  }
+  
+  .content-left-top-circle,
+  .content-left-bottom-circle {
+    position: absolute;
+    top: 113px;
+    width: 250px;
+    height: 250px;
+    border-radius: 0 0 0 100px;
+  }
+  
+  .content-left-top-circle {
+    background-color: #062f83;
+    left: 0;
+  }
+  
+  .content-left-bottom-circle {
+    background-color: #00a5ff;
+    left: 290px;
+    border-radius: 0 0 100px 0;
+  }
+  
+  .content-left-image {
+    position: absolute;
+    top: 23px;
+    left: 243px;
+    width: 307px;
+    height: 340px;
+  }
+  
+  .content-left-image-overlay {
+    position: absolute;
+    top: 0;
+    left: 7px;
+    width: 306px;
+    height: 362px;
+  }
+  
+  .content-bottom{
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center;   /* Center elements horizontally */
+    position: relative;
+  }
