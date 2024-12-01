@@ -1,9 +1,10 @@
 .MarkTimeline{
     display: flex;
     justify-content: center;
-    padding: 20px;
+    padding: 100px;
     z-index: 1000;
     position: relative;
+    background-color: white;
     span{
         width: 365px;
         font-size: 32px;
@@ -12,7 +13,7 @@
         padding: 10px;
         position: relative;
         font-weight: bold;
-        z-index: 1000
+        z-index: 1000;
         div{
             width: 30px;
             height: 30px;
@@ -21,7 +22,8 @@
             top: -50%;
             transform: translate(30%, 30%);
             background-color: black;
-                font-weight: bold;
+            border-radius: 50%;
+            font-weight: bold;
             z-index: 1200
         }
     }

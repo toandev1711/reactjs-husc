@@ -3,9 +3,11 @@ import styles from './OverInfo.module.scss'
 import Slideshow from '../SlideShow/SlideShow';
 const OverInfo = () => {
   const images = [
-    "https://images.unsplash.com/photo-1719937050679-c3a2c9c67b0f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8",
-    "https://images.unsplash.com/photo-1731573818042-3237bbed7ce1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxNnx8fGVufDB8fHx8fA%3D%3D",
-    "https://images.unsplash.com/photo-1731410612760-4d9ae680d5e9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzMHx8fGVufDB8fHx8fA%3D%3D",
+    "https://minhtoan.blob.core.windows.net/husc/1.jpg",
+    "https://minhtoan.blob.core.windows.net/husc/2.jpg",
+    "https://minhtoan.blob.core.windows.net/husc/3.jpg",
+    "https://minhtoan.blob.core.windows.net/husc/4.jpg"
+
   ];
   return (
     <div className= {styles.overviewInfoContainer}>

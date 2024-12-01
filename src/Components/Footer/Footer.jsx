@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Footer.css'
-import { LocationOn, Phone, Mail, FacebookOutlined  } from '@mui/icons-material'
+import { LocationOn, Phone, Mail, FacebookOutlined, CopyrightRounded  } from '@mui/icons-material'
 
 const Footer = () => {
   const [footerElement, setFooterElement] = useState([
@@ -8,6 +8,7 @@ const Footer = () => {
     {icon: <Phone />, content: '0234 3826 767'},
     {icon: <Mail />, content: 'khoacntt@husc.edu.vn'},
     {icon: <FacebookOutlined />, content: 'Facebook link'},
+    {icon: <CopyrightRounded />, content: 'Lê Văn Minh Toàn, Trương Bùi Nguyên Đức'},
 
   ])
   return (

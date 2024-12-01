@@ -1,0 +1,22 @@
+.avatarGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);  
+    border-radius: 20px; 
+    row-gap: 100px; 
+    column-gap: 50px;
+    .avatarCell {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        height: 300px;
+      img {
+        height: 170%; 
+        width: 120%;
+        object-fit: cover;
+        transform: translateY(-21%);
+      }
+    }
+  }
+  

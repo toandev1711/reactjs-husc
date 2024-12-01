@@ -1,0 +1,25 @@
+.container{
+    position: relative;
+    margin-bottom: 70px;;
+    img{
+        height: 300px;
+        width: 500px;
+        border-radius: 20px;
+    }
+    p{
+        margin-left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        bottom: 0;
+        position: absolute;
+        border-radius: 20px;
+        background-color: #fff;
+        padding: 10px;
+        text-align: center;
+        box-shadow: #00A5FF 0px 4px 12px;
+        font-size: 18px;
+        line-height: 1.2;
+        font-weight: 500;
+    }
+   
+}

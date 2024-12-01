@@ -4,7 +4,7 @@ import React from 'react'
 import Footer from './Components/Footer/Footer.jsx';
 import Header from './Components/Header/Header.jsx';
 
-function App() {
+function App({}) {
   return (
     <div className="App">
         <Header />

@@ -60,7 +60,9 @@ const Overview = () => {
               <div className={`overview-info fade-box ${!isScroll ? 'visible' : 'hidden'}`}>
                 {
                   overviewInfo.map((item)=>(
-                    <InfoCard thumb = {item.thumb} content={item.content}/>
+                    <InfoCard 
+                      style = {{color: 'red'}}
+                      thumb = {item.thumb} content={item.content}/>
                   ))
                 }
               </div>

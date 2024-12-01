@@ -22,6 +22,9 @@
     color: #062F83;
     font-weight: 700;
 }
+.navLink:hover{
+    text-decoration: none;
+}
 .placeholder{
     height: 200px;
     width: 200px;

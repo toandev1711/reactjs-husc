@@ -11,7 +11,7 @@ const Slideshow = ({ images, interval = 3000 }) => {
       );
     }, interval);
 
-    return () => clearInterval(timer); // Cleanup on unmount
+    return () => clearInterval(timer); 
   }, [images.length, interval]);
 
   return (
