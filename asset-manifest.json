@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/reactjs-husc/static/css/main.c5780be9.css",
-    "main.js": "/reactjs-husc/static/js/main.9ed7fcaa.js",
-    "static/media/DayE.jpg": "/reactjs-husc/static/media/DayE.cc0761534d1339d369bc.jpg",
+    "main.css": "/reactjs-husc/static/css/main.2ccd6751.css",
+    "main.js": "/reactjs-husc/static/js/main.6f1dad32.js",
     "static/media/SanGiua.jpg": "/reactjs-husc/static/media/SanGiua.e0ec05788452fc1270ac.jpg",
     "static/media/SanDHLuat.webp": "/reactjs-husc/static/media/SanDHLuat.a30ab0bee3f7b8bbaebb.webp",
     "index.html": "/reactjs-husc/index.html",
-    "main.c5780be9.css.map": "/reactjs-husc/static/css/main.c5780be9.css.map",
-    "main.9ed7fcaa.js.map": "/reactjs-husc/static/js/main.9ed7fcaa.js.map"
+    "main.2ccd6751.css.map": "/reactjs-husc/static/css/main.2ccd6751.css.map",
+    "main.6f1dad32.js.map": "/reactjs-husc/static/js/main.6f1dad32.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5780be9.css",
-    "static/js/main.9ed7fcaa.js"
+    "static/css/main.2ccd6751.css",
+    "static/js/main.6f1dad32.js"
   ]
 }
