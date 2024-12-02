@@ -1,25 +1,33 @@
 .container{
     position: relative;
     margin-bottom: 70px;;
+    padding-bottom: 50px;;
     img{
         height: 300px;
         width: 500px;
         border-radius: 20px;
+        @media (max-width: 1600px) {
+            width: 430px;
+            height: 200px;
+        }
     }
     p{
         margin-left: 50%;
         transform: translateX(-50%);
         width: 90%;
-        bottom: 0;
+        bottom: 0px;
         position: absolute;
         border-radius: 20px;
         background-color: #fff;
         padding: 10px;
         text-align: center;
         box-shadow: #00A5FF 0px 4px 12px;
-        font-size: 18px;
+        font-size: 16px;
         line-height: 1.2;
         font-weight: 500;
+        @media (max-width: 1600px) {
+            font-size: 13.5px;
+        }
     }
    
 }

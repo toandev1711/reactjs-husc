@@ -45,8 +45,28 @@ table {
 	border-spacing: 0;
 }
 #root{
+
 }
 .App{
   width: 100%;
   position: relative;
+}
+
+#border-start-start-radius{
+	border-start-start-radius: 60px;
+}
+#border-start-end-radius{
+	border-start-end-radius: 60px;
+}
+#border-end-start-radius{
+	border-end-start-radius: 60px;
+}
+#border-end-end-radius{
+	border-end-end-radius: 60px;
+}
+.hightlight{
+	color: #114293;
+}
+a:hover{
+	text-decoration: none;
 }

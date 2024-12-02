@@ -16,9 +16,9 @@ const OverviewTraning = () => {
                     <InfoCard thumb={item.thumb} content={item.content}/>
                 ))}
             </div>
-            <h3>Hiện, khoa Công nghệ thông tin có 02 ngành đào tạo đại học (Công nghệ thông tin <br/>
-            và Kỹ thuật phần mềm), 02 ngành đào tạo thạc sĩ (Khoa học máy tính và <br/>
-            Quản lí công nghệ thông tin) và 01 ngành đào tạo tiến sĩ (Khoa học máy tính)
+            <h3>Hiện, khoa Công nghệ thông tin có <span className='hightlight'> 02 ngành đào tạo đại học</span>  (Công nghệ thông tin <br/>
+            và Kỹ thuật phần mềm),<span className='hightlight'> 02 ngành đào tạo thạc sĩ</span>  (Khoa học máy tính và <br/>
+            Quản lí công nghệ thông tin) và<span className='hightlight'> 01 ngành đào tạo tiến sĩ</span>  (Khoa học máy tính)
             </h3>
         </div>
   )

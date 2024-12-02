@@ -6,7 +6,8 @@ const OverInfo = () => {
     "https://minhtoan.blob.core.windows.net/husc/1.jpg",
     "https://minhtoan.blob.core.windows.net/husc/2.jpg",
     "https://minhtoan.blob.core.windows.net/husc/3.jpg",
-    "https://minhtoan.blob.core.windows.net/husc/4.jpg"
+    "https://minhtoan.blob.core.windows.net/husc/4.jpg",
+    "https://minhtoan.blob.core.windows.net/husc/phonghoc.jpg"
 
   ];
   return (
@@ -16,15 +17,15 @@ const OverInfo = () => {
         </div>
             <div className= {styles.mainContentRight}>
             <h1>TỔNG QUAN</h1>
-            <span>Ngày <span style={{color: '#1148A5'}}>13/12/1994</span> Bộ Giáo dục và Đào <br/> 
-            tạo ký quyết định thành lập khoa  <br/>
-            Công nghệ Thông tin (CNTT) thuộc <br/>
-            trường Đại học Khoa học - Đại học <br/>
-            Huế, một trong sáu khoa CNTT trọng <br/>
-            điểm trên toàn quốc. Tuy nhiên, khoa <br/>
-            CNTT chính thức hoạt động từ ngày <br/>
-            <span style={{color: '#1148A5'}}>01/06/1995</span> với 6 thành viên chuyển <br/>
-            từ Bộ môn Toán Ứng dụng của Khoa <br/>
+            <span>Ngày <span style={{color: '#1148A5'}}>13/12/1994</span> Bộ Giáo dục và Đào  
+            tạo ký quyết định thành lập khoa  
+            Công nghệ Thông tin (CNTT) thuộc 
+            trường Đại học Khoa học - Đại học 
+            Huế, một trong sáu khoa CNTT trọng 
+            điểm trên toàn quốc. Tuy nhiên, khoa 
+            CNTT chính thức hoạt động từ ngày 
+            <span style={{color: '#1148A5'}}>01/06/1995</span> với 6 thành viên chuyển 
+            từ Bộ môn Toán Ứng dụng của Khoa 
             Toán – Cơ – Tin học
             </span>
         </div>

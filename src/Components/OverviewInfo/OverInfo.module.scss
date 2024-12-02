@@ -1,23 +1,30 @@
 .overviewInfoContainer{
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    padding: 2rem;
+    align-items: start;
     margin: 2rem auto;
+    padding: 3rem 1rem;
     max-width: 80%;
     border-bottom: 1px solid #ccc;
+
     .mainContentLeft{
-        height: 500px;
         width: 660px;
         border-radius: 20px;
+        width: 45%;
     }
     .mainContentRight{
-        font-size: 30px;
+        font-size: 23px;
         font-weight: 500;
+        line-height: 1.4;
+        width: 45%;
+        @media (max-width: 1600px) {
+            font-size: 20px;
+        }
         h1{
-            font-size: 64px;
+            font-size: 50px;
             color: #1148A5;
             margin-bottom: 30px;
+            text-align: center;
         }
         
     }

@@ -1,4 +1,3 @@
-/* Container styles */
 .timeline {
     display: flex;
     flex-direction: column;
@@ -6,35 +5,43 @@
     padding: 20px;
   }
   
-  /* Timeline item styles */
   .timeline-item {
     text-align: center;
     cursor: pointer;
     margin: 10px 0;
+    min-width: 170px;
   }
-  
+  .timeline-item:active{
+    transform: scale(0.97)
+  }
   .timeline-date {
-    font-size: 32px;
+    font-size: 17px;
     font-family: 'Geologica', sans-serif;
-    font-weight: 600;
-    color: #A1A3A7; /* Default gray */
+    font-weight: 500;
+    color: #A1A3A7; 
     transition: color 0.3s ease;
+    margin-bottom: 10px;
+    transition: 0.1s ease;
+
   }
   
   .timeline-line {
     width: 120px;
     height: 3px;
-    background: #A1A3A7; /* Default gray */
+    background: #A1A3A7; 
     margin: 5px auto 0;
-    transition: background-color 0.3s ease;
+    transition: 0.5s ease;
   }
   
-  /* Active item styles */
+
   .timeline-item.active .timeline-date {
-    color: #00A5FF; /* Blue color for active */
+    color: #fff; 
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    background-color: #00A5FF;
+    
   }
   
-  .timeline-item.active .timeline-line {
-    background: #00A5FF; /* Blue color for active */
-  }
+ 
   

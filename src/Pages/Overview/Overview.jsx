@@ -55,7 +55,7 @@ const Overview = () => {
               {
                 <div 
                   className={`${!isScroll ? 'visible' : 'box hidden'}`}
-                  style={{transform: 'translateY(-150%)'}}><Header/></div>
+                  style={{transform: 'translateY(-140%)'}}><Header/></div>
               } 
               <div className={`overview-info fade-box ${!isScroll ? 'visible' : 'hidden'}`}>
                 {

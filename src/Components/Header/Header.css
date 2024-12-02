@@ -10,7 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 65px;
+    height: 55px;
     border-radius: 10px;
     transform: translateX(-50%);
     margin-left: 50%;
@@ -18,7 +18,7 @@
    
 }
 .navLink{
-    font-size: 22px;
+    font-size: 18px;
     color: #062F83;
     font-weight: 700;
 }
@@ -34,6 +34,11 @@
     left: 50%;
     transform: translateX(-50%);
     z-index: 1000;
-    height: 120px;
-    width: 120px;
+    height: 100px;
+    width: 100px;
+}
+.header-side{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
 }

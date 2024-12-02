@@ -1,18 +1,28 @@
 .MarkContainer{
-    padding: 60px;
-    margin: 0 10px;
-    margin-top: 50vh;
-    transform: translateY(-50%);
+    margin-top: 90px;
     border-radius: 30px;
+    padding: 0 40px;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    flex-direction: column;
+    @media (max-width: 1600px) {
+        padding: 0 80px;
+    }
     h1{
-        font-size: 50PX;
+        font-size: 45px;
         font-weight: bold;
         text-align: center;
         color: #1148A5;
         margin-bottom: 20px;
+        @media (max-width: 1600px) {
+            font-size: 40px;
+
+        }
     }
     .ImgContainer{
         display: flex;
         justify-content: center;
+        
     }
 }

@@ -6,9 +6,9 @@ const Mark = () => {
   const [item, setItem] = useState([
     {img : 'https://minhtoan.blob.core.windows.net/husc/4.jpg', 
       title : 'Thành lập khoa', content:' Ngày 13 tháng 12 năm 1994, Bộ Giáo Dục và Đào Tạo ra quyết định  thành lập Khoa Công nghệ thông tin tại Đại học Huế', year: '1994'},
-    {img : 'https://minhtoan.blob.core.windows.net/husc/4.jpg', 
+    {img : 'https://minhtoan.blob.core.windows.net/husc/santruong2.jpg', 
       title : 'Đào tạo cử nhân ngành CNTT', content:' Ngày 01 tháng 06 năm 1995, Chính thức đào tạo cử nhân ngành Công nghệ thông tin, trở thành 1 trong 6 khoa Công nghệ thông tin trọng điểm trên toàn quốc', year: '1995'},
-    {img : 'https://minhtoan.blob.core.windows.net/husc/3.jpg', 
+    {img : 'https://minhtoan.blob.core.windows.net/husc/santruong1.jpg', 
       title : 'Đào tạo thạc sĩ', content:'Đào tạo thạc sĩ chuyên ngành Khoa học máy tính được đưa vào hoạt động', year: '2000'},
     {img : 'https://minhtoan.blob.core.windows.net/husc/2.jpg', 
       title : 'Đào tạo tiến sĩ', content:'Khoa Công nghệ thông tin được giao trọng trách đào tạo tiến sĩ chuyên ngành Khoa học máy tính', year: '2010'},

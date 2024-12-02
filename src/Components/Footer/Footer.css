@@ -1,24 +1,31 @@
 .app-footer{
 }
 .footer{
-  
     display: flex;
     justify-content: space-between;
-    height: 100px;
+    height: 65px;
     align-items: center;
     background-color: #00A5FF;
-    padding: 0 20rem;
+    padding: 0 5rem;
     position: relative;
     
 }
 .footer-element{
     display: flex;
     align-items: center;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 500;
     color: #fff
+}
+.footer-element:hover{
+    cursor: pointer;
+    transform: scale(1.05);
 }
 .footer-icon{
     font-size: 2.4rem;
     margin-right: 10px;
+    transform: translateY(-1px);
+}
+.content{
+    margin-left: 6px;
 }

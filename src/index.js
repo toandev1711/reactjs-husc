@@ -5,6 +5,7 @@ import {
     createBrowserRouter,
     RouterProvider,
     BrowserRouter,
+    HashRouter,
     Route,
     Routes
 } from "react-router-dom";
@@ -14,7 +15,7 @@ import Mark from './Pages/Mark/Mark';
 import Timeline from './Pages/Timeline/Timeline';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <BrowserRouter>
+    <HashRouter>
         <Routes>
             <Route index element={<Overview /> }/>
             <Route path='/overview' element={<Overview /> } />
@@ -24,5 +25,5 @@ root.render(
                 <Route path='timeline' element = {<Timeline />}/>
             </Route>
         </Routes>
-    </BrowserRouter>
+    </HashRouter>
 );
